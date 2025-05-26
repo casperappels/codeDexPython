@@ -27,12 +27,16 @@ match shape:
     case 3: #this is the case for the square
         side = int(input("Side: "))
         area = side**2
+
     case 4: #this is the case for the circle
         radius = int(input("Radius: "))
-        area = round(math.pi * (radius**2), 2)
+        area = math.pi * (radius**2)
+
     case 5: #this is the case for quitting
-        print()
+        print("you quited the calculator")
+
     case _: # this is the case for any incorrect inputs
         print("Your input was incorect.")
 
-print(f"the area is {area}")
+if shape <=4:
+    print(f"the area is {round(area, 2)}")

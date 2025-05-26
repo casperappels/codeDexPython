@@ -25,8 +25,8 @@ match shape:
         area = (lenght * width)
 
     case 3: #this is the case for the square
-        #side = int(input("Side: "))
-        #area = side**2
+        side = int(input("Side: "))
+        area = side**2
     case 4: #this is the case for the circle
         print()
     case 5: #this is the case for quitting

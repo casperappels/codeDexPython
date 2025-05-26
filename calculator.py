@@ -11,6 +11,7 @@ Area Calculator
 5) Quit\
 
 Which shape: """))
+#switch cases to determine the right formula
 
 match shape:
     case 1: #This is the case for the triangle

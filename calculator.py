@@ -28,7 +28,8 @@ match shape:
         side = int(input("Side: "))
         area = side**2
     case 4: #this is the case for the circle
-        print()
+        radius = int(input("Radius: "))
+        area = round(math.pi * (radius**2), 2)
     case 5: #this is the case for quitting
         print()
     case _: # this is the case for any incorrect inputs

@@ -18,14 +18,20 @@ match shape:
         base = int(input("Base: "))
         print("")
         area = (height * base)/2
-        print(f" the area is {area}")
-    case 2: #this is the case for the rectangle
         
+    case 2: #this is the case for the rectangle
+        lenght = int(input("Lenght: "))
+        width = int(input("Width: "))
+        area = (lenght * width)
+
     case 3: #this is the case for the square
-        print()
+        #side = int(input("Side: "))
+        #area = side**2
     case 4: #this is the case for the circle
         print()
     case 5: #this is the case for quitting
         print()
     case _: # this is the case for any incorrect inputs
         print("Your input was incorect.")
+
+print(f"the area is {area}")

@@ -6,5 +6,3 @@ bday_messages = ["Hope you have a very Happy Birthday! 🎈","It's your special 
 "Another year of you going around the sun! 🌞"]
 
 random_message = random.choice(bday_messages)
-
-print(random_message)
